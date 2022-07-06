@@ -8,7 +8,7 @@
 
 Not: Bu kaynağı sağ üstten forklamayı ve yıldızlamayı unutmayın, profiliniz katıldığınız testnetlerle dolu olsun.
 
-# Sistem gereksinimler:
+# Sistem gereksinimler: NOT: bence ücretsiz sunucuya kurun aşağıda purring ve index ayarlarını yaparak
 ```
 8GB RAM
 200 GB SSD
