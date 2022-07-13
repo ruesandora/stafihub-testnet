@@ -82,7 +82,7 @@ wget -O $HOME/.stafihub/config/genesis.json "https://raw.githubusercontent.com/s
 ```
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.01ufis\"/" $HOME/.stafihub/config/app.toml
 sed -i '/\[grpc\]/{:a;n;/enabled/s/false/true/;Ta};/\[api\]/{:a;n;/enable/s/false/true/;Ta;}' $HOME/.stafihub/config/app.toml
-peers="2e48b16575a278b90b605cb243a48c909de7fd03@194.60.201.136:26656,c8ba1915c78db452e56d50d3ba4d3357aeeda2d0@161.97.82.204:26656,c4509887f5eaea749bcdb5659aefbe857062d47c@142.93.170.65:26656,4e2441c0a4663141bb6b2d0ea4bc3284171994b6@46.38.241.169:26656,79ffbd983ab6d47c270444f517edd37049ae4937@23.88.114.52:26656"
+peers="5755e89abcb14b6b622fc22210b9644cddd14a0b@139.59.146.152:26656,724430a2cf42b94f5da6b24d4741c7418fefa24e@194.60.201.153:26656,fcb0d867153a719492a4a92f7b32533aa95fcc8d@147.135.254.37:26656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.stafihub/config/config.toml
 ```
 
